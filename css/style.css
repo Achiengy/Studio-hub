@@ -30,4 +30,14 @@ html{
     
 }
 
+.title-text{
+    font-size: 3em;
+    font-weight: 550;
+    color: rgb(255,255,255);
+    text-align: center;
+    word-spacing: 5px;
+    padding-top: 28px;
+    line-height: 90px;
+    
+}
 
