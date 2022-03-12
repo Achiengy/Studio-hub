@@ -84,3 +84,6 @@ html{
     padding-left: 42%;
 }
 
+.hidden{
+    display: none;
+}
