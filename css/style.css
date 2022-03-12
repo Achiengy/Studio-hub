@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    z-index: 99;
+    z-index: 9999;
 }
 
 html{
@@ -94,6 +94,11 @@ html{
     height: 90vh;
 }
 
+.port {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #portfolio{
     width: 300px;
     height: 250px;
@@ -104,7 +109,7 @@ html{
 }
 
 .second{
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 /* Styling the contact us section */
@@ -145,12 +150,12 @@ html{
 /* Styling the social icons */
 .social-icons {
     width: 100%;
-    height: 20vh;
+    height: 15vh;
 }
 
 .images {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 3%;
 }
@@ -162,4 +167,254 @@ html{
 .foot {
     padding-top: 20px;
 }
+
+
+
+
+/* Media Responsiveness */
+@media (max-width: 1315px) {
+.first{
+    margin-left: 5%;
+}
+
+.port {
+    margin-top: 3%;
+}
+}
+
+@media (max-width: 1000px) {
+    .portfolio{
+        height: 150vh;
+    }
+
+    #portfolio {
+        width: 260px;
+        height: 300px;
+    }
+
+    .images {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1194px) {
+    .first{
+        margin-left: 1%;
+    }
+}
+
+@media (max-width: 1060px) {
+    #portfolio {
+        width: 265px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 989px) {
+    #portfolio {
+        width: 248px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 865px) {
+    #logo{
+        margin-top: 20%;
+        height: 50px;
+    }
+    
+    .title-text{
+       padding-top: 30px;
+    }
+    
+    #click{
+        margin-top: 20%;
+    }
+    .portfolio{
+        height: 110vh;
+    }
+    #portfolio {
+        width: 200px;
+        height: 300px;
+    }}
+
+    @media (max-width: 759px) {
+        .portfolio{
+            height: 90vh;
+        }
+
+        .first {
+            margin-left: 4%;
+        }
+
+        #portfolio {
+            width: 180px;
+            height: 250px;
+        }
+    }
+
+    @media (max-width: 725px) {
+        .portfolio{
+            height: 80vh;
+        }
+
+        #portfolio {
+            width: 160px;
+            height: 200px;
+        }
+
+        #design,#development,#product {
+            justify-content: center;
+        }
+    }
+
+    @media (max-width: 687px) {
+        .about {
+            height: 45vh;
+        }
+        .portfolio {
+            height: 75vh;
+        }
+        #portfolio {
+            width: 130px;
+            height: 200px;
+        }
+
+        .first {
+            margin-left: 0.5%;
+        }
+    }
+
+    @media (max-width: 650px) {
+        .about {
+            height: 45vh;
+        }
+        .portfolio {
+            height: 77vh;
+        }
+        #portfolio {
+            width: 160px;
+            height: 200px;
+        }
+    }
+
+    @media (max-width: 625px) {
+        #portfolio {
+            width: 150px;
+            height: 220px;
+        }
+
+        .port {
+            margin-top: -3%;
+        }
+    }
+
+    @media (max-width: 553px) {
+        .whatWeDo{
+            height: 35vh;
+        }
+        
+        #design,#product,#development {
+            padding-left: 29%;
+        }
+
+        #product {
+            margin-top: -10px;
+        }
+
+        /* .portfolio {
+            height: 70vh;
+        } */
+        #portfolio {
+            width: 130px;
+            height: 220px;
+        }
+
+        .port {
+            margin-top: -3%;
+        }
+    }
+
+    @media (max-width: 444px) {
+        .about {
+            height: 50vh;
+        }
+
+        #portfolio {
+            width: 100px;
+            height: 160px;
+        }
+
+        .first{
+            margin-left: 5%;
+        }
+    }
+
+    @media (max-width: 467px) {
+        #portfolio {
+            width: 115px;
+            height: 200px;
+        }
+
+        .first {
+            margin-left: 6%;
+        }
+
+        .port {
+            margin-top: 5%;
+        }
+    }
+
+    @media (max-width: 439px) {
+        body{
+            width: 100%;
+        }
+        .about {
+            height: 52vh;
+        }
+        #portfolio {
+            width: 105px;
+        }
+
+        .first {
+            margin-left: 6%;
+        }
+       
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+        }
+   
+}
+    
+
+    @media (max-width: 341px) {
+        .about {
+            height: 80vh;
+        }
+
+        .whatWeDo {
+            height: 40vh;
+        }
+
+        .portfolio {
+            margin-top: 15%;
+            height: 110vh;
+        }
+
+        .portfolio>.row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #product {
+            margin-left: 10%;
+        }
+
+        .social-icons>.images {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
 
