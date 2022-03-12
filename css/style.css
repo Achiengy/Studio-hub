@@ -71,7 +71,7 @@ html{
     height: 30vh;
     width: 100%;
 }
-.what-center{
+.title-center{
     padding-top: 3%;
     font-weight: bold;
 }
@@ -109,7 +109,36 @@ html{
 
 /* Styling the contact us section */
 .contact{
-    height: 90vh;
+    height: 60vh;
     width: 100%;
     background-image: url(/assets/background/c_image.jpg);
+    color: rgb(255,255,255);
 }
+
+.form{
+   width: 60%;
+   margin-left: 20%;
+}
+
+.text {
+    margin-top: 2%;
+}
+
+.form-control {
+    background: transparent;
+    border: 0.3px solid white;
+}
+
+.form-control::placeholder{
+    color: rgb(255,255,255);
+    padding-top: 5px;
+    padding-left: 8px;
+}
+
+.btn {
+    border: 0.2px solid white;
+    color: rgb(255,255,255);
+    margin-top: 25px;
+    margin-left: 45%;
+}
+
