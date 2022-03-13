@@ -105,11 +105,11 @@ html{
 }
 
 .first{
-    margin-left: 11%;
+    margin-left: 15%;
 }
 
 .second{
-    margin-top: 2%;
+    margin-top: 15%;
 }
 
 /* Styling the contact us section */
@@ -182,20 +182,7 @@ html{
 }
 }
 
-@media (max-width: 1000px) {
-    .portfolio{
-        height: 150vh;
-    }
 
-    #portfolio {
-        width: 260px;
-        height: 300px;
-    }
-
-    .images {
-        justify-content: center;
-    }
-}
 
 @media (max-width: 1194px) {
     .first{
@@ -204,14 +191,43 @@ html{
 }
 
 @media (max-width: 1060px) {
-    #portfolio {
-        width: 265px;
-        height: 300px;
+    #click {
+        margin-top: 10px;
+    }
+    .about {
+        height: 50vh;
+    }
+    .portfolio {
+        height: 70vh;
+        width: 100%;
+    }
+    .col>#portfolio {
+        width: 250px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .portfolio{
+        height: 80vh;
+    }
+
+    .col>#portfolio {
+        width: 200px;
+        height: 200px;
+    }
+
+    .col>.first {
+        margin-left: 15%;
+    }
+
+    .images {
+        justify-content: center;
     }
 }
 
 @media (max-width: 989px) {
-    #portfolio {
+    .col>#portfolio {
         width: 248px;
         height: 300px;
     }
@@ -231,25 +247,25 @@ html{
         margin-top: 20%;
     }
     .portfolio{
-        height: 110vh;
+        height: 50vh;
     }
-    #portfolio {
-        width: 200px;
-        height: 300px;
+    .col>#portfolio {
+        width: 160px;
+        height: 200px;
     }}
 
     @media (max-width: 759px) {
         .portfolio{
-            height: 90vh;
+            height: 70vh;
         }
 
         .first {
             margin-left: 4%;
         }
 
-        #portfolio {
+        .col>#portfolio {
             width: 180px;
-            height: 250px;
+            height: 200px;
         }
     }
 
@@ -258,13 +274,24 @@ html{
             height: 80vh;
         }
 
-        #portfolio {
+        .col>#portfolio {
             width: 160px;
             height: 200px;
         }
 
         #design,#development,#product {
             justify-content: center;
+        }
+    }
+
+    @media (max-width: 705px) {
+        .portfolio{
+            height: 80vh;
+        }
+
+        .col>#portfolio {
+            width: 140px;
+            height: 200px;
         }
     }
 
@@ -275,7 +302,7 @@ html{
         .portfolio {
             height: 75vh;
         }
-        #portfolio {
+        .col>#portfolio {
             width: 130px;
             height: 200px;
         }
@@ -292,20 +319,28 @@ html{
         .portfolio {
             height: 77vh;
         }
-        #portfolio {
+        .col>#portfolio {
             width: 160px;
             height: 200px;
         }
     }
 
     @media (max-width: 625px) {
-        #portfolio {
-            width: 150px;
-            height: 220px;
+        .portfolio>.row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .col>#portfolio {
+            width: 130px;
+            height: 200px;
+        }
+
+        .col>.first {
+            margin-left: 3%;
         }
 
         .port {
-            margin-top: -3%;
+            margin-top: 2%;
         }
     }
 
@@ -322,16 +357,38 @@ html{
             margin-top: -10px;
         }
 
-        /* .portfolio {
-            height: 70vh;
-        } */
-        #portfolio {
-            width: 130px;
-            height: 220px;
+        .portfolio {
+            height: 75vh;
+        }
+        .col>#portfolio {
+            width: 100px;
+            height: 200px;
+        }
+
+        .port>.first {
+            margin-left: 10px;
         }
 
         .port {
             margin-top: -3%;
+        }
+    }
+
+    @media (max-width: 467px) {
+        .portfolio {
+            height: 65vh;
+        }
+        .col>#portfolio {
+            width: 80px;
+            height: 150px;
+        }
+
+        .col>.first {
+            margin-left: 10px;
+        }
+
+        .port {
+            margin-top: 5%;
         }
     }
 
@@ -340,7 +397,7 @@ html{
             height: 50vh;
         }
 
-        #portfolio {
+        .col>#portfolio {
             width: 100px;
             height: 160px;
         }
@@ -350,20 +407,7 @@ html{
         }
     }
 
-    @media (max-width: 467px) {
-        #portfolio {
-            width: 115px;
-            height: 200px;
-        }
-
-        .first {
-            margin-left: 6%;
-        }
-
-        .port {
-            margin-top: 5%;
-        }
-    }
+   
 
     @media (max-width: 439px) {
         body{
@@ -372,7 +416,7 @@ html{
         .about {
             height: 52vh;
         }
-        #portfolio {
+        .col>#portfolio {
             width: 105px;
         }
 
@@ -383,28 +427,67 @@ html{
         .images {
             display: flex;
             flex-wrap: wrap;
+        }}
+
+        @media (max-width: 401px) {
+            .portfolio {
+                height: 60vh;
+            }
+
+            .col>#portfolio {
+                width: 75px;
+            }
         }
-   
-}
     
+        @media (max-width: 380px) {
+            .about {
+                height: 59vh;
+            }
+            .portfolio {
+                height: 65vh;
+            }
+
+            .col>#portfolio {
+                width: 70px;
+            }
+
+            .whatWeDo>.row p {
+                text-align: center;
+            }
+
+            .whatWeDo>.row img {
+                height: 50px;
+            }
+
+            #product {
+                margin-top: -3px;
+            }
+        }
 
     @media (max-width: 341px) {
         .about {
-            height: 80vh;
+            height: 60vh;
         }
 
         .whatWeDo {
-            height: 40vh;
+            height: 30vh;
+        }
+
+        .whatWeDo>.row {
+            margin-top: 10px;
         }
 
         .portfolio {
-            margin-top: 15%;
-            height: 110vh;
+            margin-top: 5%;
+            height: 60vh;
         }
 
         .portfolio>.row {
             display: flex;
             flex-wrap: wrap;
+        }
+        .col>#portfolio {
+            width: 60px;
         }
 
         #product {
@@ -416,5 +499,9 @@ html{
             flex-wrap: wrap;
         }
     }
+
+    @media (max-width: 321px) {
+
+    } 
 
 
