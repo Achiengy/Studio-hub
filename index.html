@@ -16,6 +16,7 @@
   <body>
       
   <div class="content">
+
     <section class="home">
       <img src="./assets/logo.png" id="logo">
       <div class="title-text text-center">WELCOME<br>TO DELANI STUDIO</div>
@@ -23,7 +24,8 @@
       <img src="./assets/mouse_click.png" id="click">
     </section>
 
-    <section class="about" id="about">
+
+    <section class="about">
       <div class="text-center">
         <h5 class="about-title">ABOUT US</h5>
         <p >When you work with us,you are a part of a team of committed collaborators.All aspects of our software development process are intergrated,interactive<br>and agile.</p>
@@ -41,6 +43,7 @@
         <p>based on your requirements,we can provide a complete offering or just the pieces you need.</p>
       </div>
     </section>
+
 
     <section class="whatWeDo">
       <h5 class="title-center text-center">WHAT WE DO</h5>
@@ -67,20 +70,22 @@
       </div> 
     </section>
 
+
     <section class="portfolio">
       <h5 class="title-center text-center">PORTFOLIO</h5>
-
-      <div class="row">
-        <img class="first" src="./assets/portfolio/work4.jpg" id="portfolio">
-        <img src="./assets/portfolio/work3.jpg" id="portfolio">
-        <img src="./assets/portfolio/work2.jpg" id="portfolio">
-        <img src="./assets/portfolio/work1.jpg" id="portfolio">
-        <img class="first second" src="./assets/portfolio/work5.jpg" id="portfolio">
-        <img class="second" src="./assets/portfolio/work6.jpg" id="portfolio">
-        <img class="second" src="./assets/portfolio/work7.jpg" id="portfolio"> 
-        <img class="second" src="./assets/portfolio/work8.jpg" id="portfolio">
+        
+      <div class="portfolio-img">
+        <img  src="./assets/portfolio/work4.jpg" id="portfolio" class="one">
+        <img  src="./assets/portfolio/work3.jpg" id="portfolio" class="two">
+        <img  src="./assets/portfolio/work2.jpg" id="portfolio" class="three">
+        <img  src="./assets/portfolio/work1.jpg" id="portfolio" class="four">
+        <img  src="./assets/portfolio/work5.jpg" id="portfolio" class="five">
+        <img  src="./assets/portfolio/work6.jpg" id="portfolio" class="six">
+        <img  src="./assets/portfolio/work7.jpg" id="portfolio" class="seven">
+        <img  src="./assets/portfolio/work8.jpg" id="portfolio" class="eight">
       </div>
     </section>
+
 
     <section class="contact">
       <h5 class="title-center text-center">CONTACT US</h5>
@@ -88,14 +93,14 @@
       <form action="" class="form">
         <div class="row">
           <div class="col">
-            <input type="text"  placeholder="Name..." class="form-control" id="name">
+            <input type="text"  placeholder="Name..." class="form-control" id="name" required><span class="invalid-message"></span>
           </div>
           <div class="col">
-            <input type="text"  placeholder="Email..." class="form-control" id="email">
+            <input type="email"  placeholder="Email..." class="form-control" id="email" required><span class="invalid-message"></span>
           </div>
         </div>
         <div class="text">
-          <textarea rows="8" cols="98" placeholder="Your message here..." class="form-control" ></textarea>
+          <textarea rows="8" cols="98" placeholder="Your message here..." class="form-control" type="text"></textarea>
         </div>
         <button class="btn">Submit</button>
       </form>
@@ -121,8 +126,6 @@
   </div>
       
 
-
-    
 
     <!-- Separate Popper, Bootstrap JS and vanilla JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

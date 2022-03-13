@@ -68,7 +68,7 @@ html{
 
 /* Styling the whatWeDo section */
 .whatWeDo{
-    height: 30vh;
+    height: 35vh;
     width: 100%;
 }
 .title-center{
@@ -94,23 +94,55 @@ html{
     height: 90vh;
 }
 
-.port {
+.portfolio-img {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
 }
 
 #portfolio{
-    width: 300px;
-    height: 250px;
+    width: 310px;
+    height: 240px;
 }
 
-.first{
-    margin-left: 15%;
+.portfolio-img>.one {
+    margin-left: -1%;
 }
 
-.second{
-    margin-top: 15%;
+.portfolio-img>.two {
+    margin-left: 25px;
 }
+
+.portfolio-img>.three {
+    margin-left: 25px;
+}
+
+.portfolio-img>.four {
+    margin-left: 25px;
+}
+
+.portfolio-img>.five {
+    margin-left: -1%;
+    margin-top: 50px;
+}
+
+.portfolio-img>.six {
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.portfolio-img>.seven {
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.portfolio-img>.eight {
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+
 
 /* Styling the contact us section */
 .contact{
