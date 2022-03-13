@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -10,6 +9,9 @@
      
     <!-- Custom CSS -->
     <link href="./css/style.css" rel="stylesheet" type="text/css">
+ 
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <title>Delani Studio</title>
   </head>
@@ -52,21 +54,25 @@
         <div class="design col">
           <img src="./assets/services_icons/design_icon.png" id="design">
           <p class="text-center fw-bold" id="text1">DESIGN</p>
-          <p id="title1">DESIGN</p>
+         
           <p class="hidden" id="hidden1">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
             Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
         </div>
+
+      
         <div class="development col">
           <img src="./assets/services_icons/dev_icon.png" id="development">
           <p class="text-center fw-bold" id="text2">DEVELOPMENT</p>
-          <p id="title2">DEVELOPMENT</p>
-          <p class="hidden" id="hidden2">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+         
+          <p  class="hidden" id="hidden2">All engineers are fluent in the latest enterprise, mobile and web development technologies.
             They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
         </div>
+
+
         <div class="product col">
           <img src="./assets/services_icons/product_icon.png" id="product">
           <p class="text-center fw-bold" id="text3">PRODUCT MANAGEMENT</p>
-          <p id="title3">PRODUCT MANAGEMENT</p>
+          
           <p class="hidden" id="hidden3">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
             This iterative process allows for changes as business requirements evolve.</p>
         </div>
@@ -77,15 +83,48 @@
     <section class="portfolio">
       <h5 class="title-center text-center">PORTFOLIO</h5>
         
-      <div class="portfolio-img">
-        <img  src="./assets/portfolio/work4.jpg" id="portfolio" class="one">
-        <img  src="./assets/portfolio/work3.jpg" id="portfolio" class="two">
-        <img  src="./assets/portfolio/work2.jpg" id="portfolio" class="three">
-        <img  src="./assets/portfolio/work1.jpg" id="portfolio" class="four">
-        <img  src="./assets/portfolio/work5.jpg" id="portfolio" class="five">
-        <img  src="./assets/portfolio/work6.jpg" id="portfolio" class="six">
-        <img  src="./assets/portfolio/work7.jpg" id="portfolio" class="seven">
-        <img  src="./assets/portfolio/work8.jpg" id="portfolio" class="eight">
+      <div class="row portfolio-img">
+
+        <div class="container-fluid col-md-3 my-3"  id="black">
+        <img  src="./assets/portfolio/work4.jpg" id="portfolio" class="img-fluid">
+        <h4 class="word1">BLACK</h4>
+        </div>  
+
+        <div class="container-fluid col-md-3 my-3" id="ontario">
+        <img  src="./assets/portfolio/work3.jpg" id="portfolio" class="img-fluid">
+        <h4 class="word2" >MIGHTY ONTARIO</h4>
+        </div>
+
+        <div class="container-fluid col-md-3 my-3" id="golden">
+        <img  src="./assets/portfolio/work2.jpg" id="portfolio" class="img-fluid" >
+        <h4 class="word3" >GOLDEN PYRAMID</h4>
+        </div>
+
+        <div class="container-fluid col-md-3 my-3" id="carrey">
+        <img  src="./assets/portfolio/work1.jpg" id="portfolio" class="img-fluid" >
+        <h4 class="word4">JIM CARREY</h4>
+        </div>
+
+        <div class="container-fluid col-md-3 my-3" id="enjoy">
+        <img  src="./assets/portfolio/work5.jpg" id="portfolio" class="img-fluid">
+        <h4 class="word5">GOOD DAY</h4>
+        </div>
+
+        <div class="container-fluid col-md-3 my-3" id="button">
+        <img  src="./assets/portfolio/work6.jpg" id="portfolio" class="img-fluid">
+        <h4 class="word6">BUTTON APP</h4>
+        </div>
+
+        <div class="container-fluid col-md-3 my-3" id="burned">
+        <img  src="./assets/portfolio/work7.jpg" id="portfolio" class="img-fluid">
+        <h4 class="word7">BURNED COMPANY</h4>
+        </div>
+
+        <div class="container-fluid col-md-3 my-3" id="bailey">
+        <img  src="./assets/portfolio/work8.jpg" id="portfolio" class="img-fluid">
+        <h4 class="word8">BAILEY WONGER</h4>
+        </div>
+
       </div>
     </section>
 
@@ -128,14 +167,7 @@
     </section>
   </div>
       
-
-
-    <!-- Separate Popper, Bootstrap JS and vanilla JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
+    
     <script src="./js/script.js"></script>
   </body>
 </html>

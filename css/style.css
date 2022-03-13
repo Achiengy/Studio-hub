@@ -98,14 +98,13 @@ html{
 /* Styling the portfolio section */
 .portfolio{
     width: 100%;
-    height: 90vh;
+    height: 86vh;
 }
 
 .portfolio-img {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 3%;
+    margin-top: -2%;
+    margin-left: 22px;
 }
 
 #portfolio{
@@ -113,42 +112,73 @@ html{
     height: 240px;
 }
 
-.portfolio-img>.one {
-    margin-left: -1%;
+.word1,
+.word2,
+.word3,
+.word4,
+.word5,
+.word6,
+.word7,
+.word8 {
+    border: 2px solid white;
+    padding-top: 1%;
+    position: absolute;
+    height: 86%;
+    width: 75%;
+    margin: 10%;
+    margin-left: 15px;
+    font-size: 2em;
+    font-weight: bolder;
+    color: white;
+    transform: translate(-0%, -130%);
+    display: none;
+    text-align: center;
+    transition: opacity 0.5s ease-in-out;
 }
 
-.portfolio-img>.two {
-    margin-left: 25px;
+#black,
+#ontario,
+#golden,
+#carrey,
+#enjoy,
+#button,
+#burned,
+#bailey {
+  position: relative;
 }
 
-.portfolio-img>.three {
-    margin-left: 25px;
-}
 
-.portfolio-img>.four {
-    margin-left: 25px;
-}
+#bailey:hover {
+    opacity: 0.7;
+  }
 
-.portfolio-img>.five {
-    margin-left: -1%;
-    margin-top: 50px;
-}
+  #ontario:hover {
+    opacity: 0.7;
+  }
 
-.portfolio-img>.six {
-    margin-left: 25px;
-    margin-top: 50px;
-}
+  #golden:hover {
+    opacity: 0.7;
+  }
 
-.portfolio-img>.seven {
-    margin-left: 25px;
-    margin-top: 50px;
-}
+  #carrey:hover {
+    opacity: 0.7;
+  }
 
-.portfolio-img>.eight {
-    margin-left: 25px;
-    margin-top: 50px;
-}
+  #enjoy:hover {
+    opacity: 0.7;
+  }
 
+  #button:hover {
+    opacity: 0.7;
+  }
+
+  #burned:hover {
+    opacity: 0.7;
+  }
+
+#bailey:hover {
+  opacity: 0.7;
+}
 
 
 /* Styling the contact us section */
