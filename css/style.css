@@ -68,7 +68,7 @@ html{
 
 /* Styling the whatWeDo section */
 .whatWeDo{
-    height: 35vh;
+    height: 33vh;
     width: 100%;
 }
 .title-center{
@@ -84,8 +84,15 @@ html{
     padding-left: 42%;
 }
 
+/* hidden elements */
 .hidden{
     display: none;
+}
+
+#title1,#title2,#title3 {
+    display: none;
+    font-weight: bolder;
+    text-align: center;
 }
 
 /* Styling the portfolio section */
