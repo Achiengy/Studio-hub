@@ -1,6 +1,6 @@
 # Photography-Studio
  
-![landing](https://github.com/Achiengy/Photography-Studio/blob/master/assets/%20Delani%20Studio.jpg)
+![landing](https://github.com/Achiengy/Photography-Studio/blob/gh-pages/assets/delani.jpg)
 
 
 
