@@ -1,6 +1,7 @@
 # Photography-Studio
  
-![landing](./assets/delani.jpg)
+![landing](https://github.com/Achiengy/Photography-Studio/blob/master/assets/%20Delani%20Studio.jpg)
+
 
 
 ##### By Hope Pete 
