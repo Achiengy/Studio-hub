@@ -20,7 +20,7 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>Delani is a fictional studio that show cases their photography projects.</p>
+<p>Delani is a fictional studio that show cases their portfolio.</p>
 
 ## Installation
 Git Clone https://github.com/Achiengy/Photography-Studio.git
