@@ -23,7 +23,7 @@
 <p>Delani is a fictional studio that show cases their portfolio.</p>
 
 ## Installation
-Git Clone https://github.com/Achiengy/Photography-Studio.git
+Git Clone https://github.com/Achiengy/Studio-hub.git
 
 ### Requirements
 
@@ -47,7 +47,7 @@ Git Clone https://github.com/Achiengy/Photography-Studio.git
 * JavaScript - which was used to make the web page interactive
 
 ## Live Site
-* <a href="https://achiengy.github.io/Photography-Studio/">Studio-Hub</a>
+* <a href="https://achiengy.github.io/Studio-hub/">Studio-Hub</a>
 
 ## Reference
 * <a href="https://developer.mozilla.org/en-US/">MDN Docs</a>
